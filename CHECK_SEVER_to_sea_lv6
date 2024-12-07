@@ -1,0 +1,13 @@
+
+local placeId = game.PlaceId
+
+
+if placeId == 4442272183 then
+    
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/HAPPY-script/WARN/refs/heads/main/WARN"))()
+elseif placeId == 7449423635 then
+    
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/HAPPY-script/TO_SEA_LV6/refs/heads/main/TO_SEA_LV6"))()
+else
+    warn("Không phải ở Sea 3. Script không chạy.")
+end
